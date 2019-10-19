@@ -15,6 +15,7 @@
 		33BD562B235BBB590017C6E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BD5629235BBB590017C6E6 /* LaunchScreen.storyboard */; };
 		33BD5636235BBB590017C6E6 /* Folledo_Delivery_OrganizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BD5635235BBB590017C6E6 /* Folledo_Delivery_OrganizerTests.swift */; };
 		33BD5641235BBB590017C6E6 /* Folledo_Delivery_OrganizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BD5640235BBB590017C6E6 /* Folledo_Delivery_OrganizerUITests.swift */; };
+		33BD5650235BCE380017C6E6 /* UIImage+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BD564F235BCE380017C6E6 /* UIImage+extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		33BD563C235BBB590017C6E6 /* Folledo-Delivery-OrganizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Folledo-Delivery-OrganizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33BD5640235BBB590017C6E6 /* Folledo_Delivery_OrganizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folledo_Delivery_OrganizerUITests.swift; sourceTree = "<group>"; };
 		33BD5642235BBB590017C6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33BD564F235BCE380017C6E6 /* UIImage+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				33BD5620235BBB590017C6E6 /* SceneDelegate.swift */,
 				33BD5622235BBB590017C6E6 /* ViewController.swift */,
 				33BD5624235BBB590017C6E6 /* Main.storyboard */,
+				33BD564E235BCE240017C6E6 /* Helper */,
 				33BD5627235BBB590017C6E6 /* Assets.xcassets */,
 				33BD5629235BBB590017C6E6 /* LaunchScreen.storyboard */,
 				33BD562C235BBB590017C6E6 /* Info.plist */,
@@ -126,6 +129,14 @@
 				33BD5642235BBB590017C6E6 /* Info.plist */,
 			);
 			path = "Folledo-Delivery-OrganizerUITests";
+			sourceTree = "<group>";
+		};
+		33BD564E235BCE240017C6E6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				33BD564F235BCE380017C6E6 /* UIImage+extensions.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 				33BD5623235BBB590017C6E6 /* ViewController.swift in Sources */,
 				33BD561F235BBB580017C6E6 /* AppDelegate.swift in Sources */,
 				33BD5621235BBB590017C6E6 /* SceneDelegate.swift in Sources */,
+				33BD5650235BCE380017C6E6 /* UIImage+extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
